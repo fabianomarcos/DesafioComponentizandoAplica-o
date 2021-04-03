@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 import { Star, Clock } from 'react-feather';
 
 import '../styles/movie-card.scss';
@@ -32,5 +33,5 @@ export function MovieCard(props: MovieCardProps) {
         </div>
       </div>
     </div>
-  )
+  );
 }
